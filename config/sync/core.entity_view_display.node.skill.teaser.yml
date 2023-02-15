@@ -1,0 +1,65 @@
+uuid: 2656c52f-904e-41af-b511-71540da93fb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.skill.body
+    - field.field.node.skill.field_skill_image
+    - image.style.thumbnail
+    - node.type.skill
+  module:
+    - ds
+    - image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes:
+          layout_class: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        label: ''
+    regions:
+      ds_content:
+        - field_skill_image
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          'link class': ''
+          wrapper: h2
+          class: ''
+id: node.skill.teaser
+targetEntityType: node
+bundle: skill
+mode: teaser
+content:
+  field_skill_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: ds_content
+hidden:
+  body: true
+  links: true

@@ -1,0 +1,17 @@
+uuid: e8b50560-761a-49f9-b46e-8bc32ddc8b50
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Skill
+type: skill
+description: 'Developer skills'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

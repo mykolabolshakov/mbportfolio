@@ -1,0 +1,35 @@
+uuid: de6f8283-94ec-4884-bf15-d22d588a0a74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.skill.body
+    - field.field.node.skill.field_skill_image
+    - image.style.thumbnail
+    - node.type.skill
+  module:
+    - image
+    - user
+id: node.skill.default
+targetEntityType: node
+bundle: skill
+mode: default
+content:
+  field_skill_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
