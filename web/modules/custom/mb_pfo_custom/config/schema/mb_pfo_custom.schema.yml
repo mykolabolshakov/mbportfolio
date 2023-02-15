@@ -1,0 +1,8 @@
+# Schema for the configuration files of the mb_pfo_custom module.
+mb_pfo_custom.settings:
+  type: config_object
+  label: 'mb_pfo_custom settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

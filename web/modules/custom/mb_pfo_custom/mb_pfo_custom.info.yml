@@ -1,0 +1,5 @@
+name: mb_pfo_custom
+type: module
+description: Custom solutions
+package: Custom
+core_version_requirement: ^9 || ^10

@@ -16,12 +16,17 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.3",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
+        "drupal/devel": "^5.0",
+        "drupal/ds": "^3.15",
+        "drupal/field_group": "^3.4",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/holy": "^2.0",
+        "drupal/social_media_links": "^2.9",
         "drush/drush": "^11.4"
     },
     "conflict": {

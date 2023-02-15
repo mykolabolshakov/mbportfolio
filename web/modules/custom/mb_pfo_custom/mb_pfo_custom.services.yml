@@ -1,0 +1,6 @@
+services:
+  mb_pfo_custom.event_subscriber:
+    class: Drupal\mb_pfo_custom\EventSubscriber\MbPfoCustomSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

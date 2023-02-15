@@ -1,0 +1,4 @@
+administer mb_pfo_custom configuration:
+  title: 'Administer mb_pfo_custom configuration'
+  description: 'Optional description.'
+  restrict access: true
