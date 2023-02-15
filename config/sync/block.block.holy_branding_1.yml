@@ -11,7 +11,7 @@ _core:
 id: holy_branding_1
 theme: holy
 region: navbar
-weight: 0
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:

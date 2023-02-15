@@ -12,7 +12,7 @@ _core:
   default_config_hash: Egf1ZU30NAXVrNAIMlwgxsC0R-NFb6vW9RpwPwRr2qw
 id: holy_account_menu
 theme: holy
-region: footer
+region: header
 weight: -6
 provider: null
 plugin: 'system_menu_block:account'

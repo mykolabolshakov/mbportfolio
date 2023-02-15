@@ -1,10 +1,17 @@
 uuid: f9533591-01f6-4478-a4cf-dc4bd7ccc450
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
-name: 'Basic page'
+name: 'Home page'
 type: page
 description: "Use <em>basic pages</em> for your static content, such as an 'About us' page."
 help: ''
