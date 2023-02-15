@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
     - node.type.page
+    - views.view.exps_home_page
     - views.view.frontpage
   module:
     - layout_builder
@@ -16,24 +16,44 @@ dependencies:
 third_party_settings:
   layout_builder:
     enabled: true
-    allow_custom: true
+    allow_custom: false
     sections:
       -
         layout_id: layout_onecol
         layout_settings:
-          label: 'Home page Views'
+          label: 'Skills slider'
           context_mapping: {  }
         components:
-          a188332a-82c9-43d6-81a2-9a15bf75ed5d:
-            uuid: a188332a-82c9-43d6-81a2-9a15bf75ed5d
+          774bd534-543c-4a8f-b8ae-5b575a674084:
+            uuid: 774bd534-543c-4a8f-b8ae-5b575a674084
             region: content
             configuration:
               id: 'views_block:frontpage-block_1'
-              label: ''
-              label_display: '0'
+              label: Skills
+              label_display: visible
               provider: views
               context_mapping: {  }
-              views_label: ''
+              views_label: Skills
+              items_per_page: none
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Experience
+          context_mapping: {  }
+        components:
+          a9bcb52a-4115-4953-ab46-a5dd032748c1:
+            uuid: a9bcb52a-4115-4953-ab46-a5dd032748c1
+            region: content
+            configuration:
+              id: 'views_block:exps_home_page-block_1'
+              label: Experience
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: Experience
               items_per_page: none
             weight: 0
             additional: {  }
@@ -43,8 +63,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          530f5cfc-1f33-41a8-91e5-d299177dd6ac:
-            uuid: 530f5cfc-1f33-41a8-91e5-d299177dd6ac
+          aade51ae-0ff8-4fe6-8718-d3d609d69714:
+            uuid: aade51ae-0ff8-4fe6-8718-d3d609d69714
             region: content
             configuration:
               id: 'field_block:node:page:body'
@@ -58,8 +78,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          a02bdd97-a544-4e91-8e08-1744a7a2b5f9:
-            uuid: a02bdd97-a544-4e91-8e08-1744a7a2b5f9
+          2aeba834-f8fd-46a5-84f5-1ac70ecd28e0:
+            uuid: 2aeba834-f8fd-46a5-84f5-1ac70ecd28e0
             region: content
             configuration:
               id: 'extra_field_block:node:page:links'
@@ -76,6 +96,11 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
   body:
     type: text_default
     label: hidden

@@ -1,0 +1,18 @@
+uuid: dea363b2-feac-44f9-bd7f-4010fe72024b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.experience
+id: node.experience.title
+field_name: title
+entity_type: node
+bundle: experience
+label: 'Company name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

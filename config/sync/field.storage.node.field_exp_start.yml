@@ -1,0 +1,20 @@
+uuid: 2f36cf75-4bc7-4b2d-b2ff-a3e3b80eb6ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_exp_start
+field_name: field_exp_start
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

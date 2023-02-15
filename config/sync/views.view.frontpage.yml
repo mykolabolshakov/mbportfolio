@@ -392,6 +392,7 @@ display:
     display_plugin: block
     position: 3
     display_options:
+      title: Skills
       fields:
         field_skill_image:
           id: field_skill_image
@@ -483,13 +484,14 @@ display:
                 hide_on_single_slide: '0'
                 type: views_slideshow_pager_fields
                 views_slideshow_pager_fields:
-                  views_slideshow_pager_fields_fields: {  }
+                  views_slideshow_pager_fields_fields:
+                    field_skill_image: 0
                   views_slideshow_pager_fields_hover: 0
                 views_slideshow_pager_bullets:
                   views_slideshow_pager_bullets_hover: 0
             bottom:
               views_slideshow_controls:
-                enable: false
+                enable: true
                 weight: '1'
                 hide_on_single_slide: '0'
                 type: views_slideshow_controls_text
@@ -503,7 +505,8 @@ display:
                 hide_on_single_slide: '0'
                 type: views_slideshow_pager_fields
                 views_slideshow_pager_fields:
-                  views_slideshow_pager_fields_fields: {  }
+                  views_slideshow_pager_fields_fields:
+                    field_skill_image: 0
                   views_slideshow_pager_fields_hover: 0
                 views_slideshow_pager_bullets:
                   views_slideshow_pager_bullets_hover: 0
@@ -521,6 +524,7 @@ display:
             start_paused: 0
             remember_slide: 0
             remember_slide_days: '1'
+            pause_in_middle: 0
             pause_when_hidden: 0
             pause_when_hidden_type: full
             amount_allowed_visible: ''
@@ -533,14 +537,16 @@ display:
             wait_for_image_load_timeout: '3000'
             cleartype: 0
             cleartypenobg: 0
+            advanced_options_choices: '0'
+            advanced_options_entry: ''
+            advanced_options: '{}'
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
+          relationship: none
+          view_mode: teaser
       defaults:
+        title: false
         style: false
         row: false
         fields: false

@@ -1,0 +1,17 @@
+uuid: 502df635-6d11-4001-b847-de2fb05a7bcf
+langcode: en
+status: true
+dependencies: {  }
+id: copy
+label: 'Copy text'
+token: true
+context:
+  show_warning: true
+  group:
+    language: true
+  fallback:
+    language: ''
+menu:
+  path: /admin/structure/config-pages/copy-text
+  weight: 0
+  description: ''

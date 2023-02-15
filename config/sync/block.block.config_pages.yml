@@ -1,0 +1,22 @@
+uuid: 4c244839-57e3-4745-97ec-50e50c15cb1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_pages
+  theme:
+    - holy
+id: config_pages
+theme: holy
+region: copyright
+weight: 0
+provider: null
+plugin: config_pages_block
+settings:
+  id: config_pages_block
+  label: 'ConfigPages Block'
+  label_display: '0'
+  provider: config_pages
+  config_page_type: copy
+  config_page_view_mode: full
+visibility: {  }

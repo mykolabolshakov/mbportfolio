@@ -16,18 +16,26 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/addtoany": "^2.0",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/colorbox": "^2.0",
+        "drupal/config_pages": "^2.12",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.0",
         "drupal/ds": "^3.15",
+        "drupal/easy_breadcrumb": "^2.0",
         "drupal/field_group": "^3.4",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/holy": "^2.0",
+        "drupal/module_filter": "^4.0",
+        "drupal/pathauto": "^1.11",
+        "drupal/sharethis": "^3.0",
         "drupal/slick": "^2.7",
         "drupal/social_media_links": "^2.9",
+        "drupal/video": "^3.0",
         "drupal/views_slideshow": "^5.0",
         "drush/drush": "^11.4",
         "wikimedia/composer-merge-plugin": "^2.0"
@@ -44,7 +52,8 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "wikimedia/composer-merge-plugin": true
+            "wikimedia/composer-merge-plugin": true,
+            "robloach/component-installer": true
         },
         "sort-packages": true
     },

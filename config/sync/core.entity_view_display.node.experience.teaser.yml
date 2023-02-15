@@ -1,0 +1,116 @@
+uuid: 4a0ccf65-87b8-4091-8252-5c310cd27634
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.experience.body
+    - field.field.node.experience.field_exp_end
+    - field.field.node.experience.field_exp_image
+    - field.field.node.experience.field_exp_start
+    - image.style.thumbnail
+    - node.type.experience
+  module:
+    - datetime
+    - ds
+    - field_group
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes:
+          layout_class: {  }
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        label: ''
+    regions:
+      left:
+        - field_exp_image
+        - node_title
+        - group_exp_dating
+        - field_exp_start
+        - field_exp_end
+      right:
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          'link class': ''
+          wrapper: h2
+          class: ''
+  field_group:
+    group_exp_dating:
+      children:
+        - field_exp_start
+        - field_exp_end
+      label: 'Exp Dating'
+      parent_name: ''
+      region: left
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+id: node.experience.teaser
+targetEntityType: node
+bundle: experience
+mode: teaser
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 250
+    third_party_settings: {  }
+    weight: 5
+    region: right
+  field_exp_end:
+    type: datetime_custom
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: m-Y
+    third_party_settings: {  }
+    weight: 4
+    region: left
+  field_exp_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: left
+  field_exp_start:
+    type: datetime_custom
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: m-Y
+    third_party_settings: {  }
+    weight: 3
+    region: left
+hidden:
+  links: true

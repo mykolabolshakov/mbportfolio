@@ -1,0 +1,21 @@
+uuid: 78d284ee-bd13-4f50-a63c-dc93524006fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.copy
+    - field.storage.config_pages.field_copy_text
+  module:
+    - text
+id: config_pages.copy.field_copy_text
+field_name: field_copy_text
+entity_type: config_pages
+bundle: copy
+label: 'Copy text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

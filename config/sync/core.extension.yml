@@ -1,7 +1,10 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  addtoany: 0
   admin_toolbar: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   blazy: 0
@@ -10,8 +13,10 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  colorbox: 0
   comment: 0
   config: 0
+  config_pages: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -19,21 +24,27 @@ module:
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
   field: 0
   field_group: 0
   field_ui: 0
   file: 0
   filter: 0
+  gin_toolbar: 0
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_autocomplete: 0
+  jquery_ui_menu: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
   media: 0
   menu_link_content: 0
   menu_ui: 0
+  module_filter: 0
   mysql: 0
   node: 0
   options: 0
@@ -48,14 +59,18 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  video: 0
+  video_transcode: 0
   views_slideshow: 0
   views_slideshow_cycle: 0
   views_ui: 0
   ds: 1
+  pathauto: 1
   views: 10
   standard: 1000
 theme:

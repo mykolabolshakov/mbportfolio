@@ -1,0 +1,22 @@
+uuid: 854c515a-5ee5-4ad0-a90a-5a87e12e2968
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.copy
+    - field.field.config_pages.copy.field_copy_text
+  module:
+    - text
+id: config_pages.copy.default
+targetEntityType: config_pages
+bundle: copy
+mode: default
+content:
+  field_copy_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

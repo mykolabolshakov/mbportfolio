@@ -10,13 +10,17 @@ _core:
   default_config_hash: 0JotCCfHUNKoEXPxNH_XtyQ6x9IfnVFM5hcB8cJXJY8
 id: holy_breadcrumbs
 theme: holy
-region: content
-weight: -6
+region: breadcrumb
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: ''
+  label: Breadcrumbs
   label_display: '0'
   provider: system
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'
