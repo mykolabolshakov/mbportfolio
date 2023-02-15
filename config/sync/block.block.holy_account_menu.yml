@@ -1,0 +1,27 @@
+uuid: 3a2cc8e2-9c25-4d8f-ad85-62cba6382de1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - holy
+_core:
+  default_config_hash: Egf1ZU30NAXVrNAIMlwgxsC0R-NFb6vW9RpwPwRr2qw
+id: holy_account_menu
+theme: holy
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: ''
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }
