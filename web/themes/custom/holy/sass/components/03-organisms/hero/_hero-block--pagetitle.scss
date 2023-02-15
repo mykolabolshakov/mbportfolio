@@ -1,0 +1,24 @@
+// HERO - BLOCK -- page title
+
+#hero {
+  .block-page-title-block {
+    h1 {
+      margin: 0;
+      text-align: center;
+      color: $hero-title-text;
+      line-height: 1.2;
+    }
+
+    @media (max-width: $screen-sm-max) {
+      h1 {
+        padding: 3rem 0;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      h1 {
+        padding: 5rem 0;
+      }
+    }
+  }
+}

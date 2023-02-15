@@ -1,0 +1,15 @@
+html {
+  font-family: "Montserrat fonts", sans-serif;
+  font-size: 62.5%;
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (min-width: 3000px) {
+  html {
+    font-size: 125%;
+  }
+}

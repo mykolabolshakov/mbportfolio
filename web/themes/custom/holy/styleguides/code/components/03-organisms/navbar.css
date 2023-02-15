@@ -1,0 +1,25 @@
+@media (max-width: 63.9rem) {
+  #navbar-wrapper {
+    position: relative;
+    height: 11rem;
+  }
+  #navbar-wrapper #navbar {
+    position: relative;
+    z-index: 100;
+    height: 11rem;
+    background: #fff;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+  }
+}
+@media (min-width: 64rem) {
+  #navbar-wrapper {
+    display: none;
+  }
+}
+
+body.menu-open #navbar-wrapper #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 11rem;
+}

@@ -1,0 +1,22 @@
+#main .node--view-mode-teaser h2.title {
+  padding: 0;
+}
+#main .node--view-mode-teaser .readmore {
+  padding-top: 0;
+}
+#main .node--view-mode-teaser .readmore a {
+  display: inline-block;
+  color: #1379a7;
+}
+@media (min-width: 30rem) {
+  #main .node--view-mode-teaser {
+    display: flex;
+    gap: 3rem;
+  }
+  #main .node--view-mode-teaser .left {
+    flex: 1;
+  }
+  #main .node--view-mode-teaser .right {
+    flex: 2.7;
+  }
+}

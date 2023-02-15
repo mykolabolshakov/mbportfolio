@@ -1,0 +1,7 @@
+.field {
+  margin-bottom: 1.3rem;
+}
+.field.field--label-above .field__label {
+  display: block;
+  margin-bottom: 0.6rem;
+}

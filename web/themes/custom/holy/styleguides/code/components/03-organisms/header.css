@@ -1,0 +1,26 @@
+@media (max-width: 63.9rem) {
+  #header .region-header {
+    display: flex;
+    flex-direction: column;
+  }
+  #header .region-header .block-language {
+    order: 3;
+  }
+  #header .region-header .block-search {
+    order: 2;
+  }
+  #header .region-header .block-menu {
+    order: 1;
+  }
+}
+@media (min-width: 64rem) {
+  #header {
+    position: relative;
+    height: 11rem;
+    color: #353535;
+    background: transparent;
+  }
+  #header .region-header {
+    display: flex;
+  }
+}

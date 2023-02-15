@@ -1,0 +1,12 @@
+@media (max-width: 63.9rem) {
+  #menu {
+    color: #fff;
+    background: transparent;
+  }
+}
+@media (min-width: 64rem) {
+  #menu {
+    color: #353535;
+    background: transparent;
+  }
+}

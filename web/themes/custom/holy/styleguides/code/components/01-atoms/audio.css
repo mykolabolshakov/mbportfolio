@@ -1,0 +1,9 @@
+audio {
+  background: #000;
+}
+
+@media (max-width: 45rem) {
+  audio {
+    width: 100% !important;
+  }
+}

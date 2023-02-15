@@ -1,0 +1,17 @@
+.field--type-comment .comment {
+  position: relative;
+  margin: 2rem 0 0 0;
+  padding: 1.5rem 2rem;
+  border: 0.1rem solid #eeeeee;
+}
+.field--type-comment .comment .comment__meta > a {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+.field--type-comment .indented {
+  margin-left: 5rem;
+}
+.field--type-comment .comment-form__title {
+  padding-top: 5rem;
+}

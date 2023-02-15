@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  padding: 0 2.5rem;
+}
+@media (min-width: 48rem) {
+  .container {
+    width: 100%;
+    padding: 0 3rem;
+  }
+}
+@media (min-width: 82rem) {
+  .container {
+    width: 120rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

@@ -1,0 +1,44 @@
+#main #search-form .form-wrapper label {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+#main #search-form .form-wrapper .form-type-search {
+  display: inline-block;
+  width: calc(100% - 6rem);
+  margin: 0;
+}
+#main #search-form .form-wrapper .form-type-search .form-search {
+  width: calc(100% - 3.4rem);
+  height: 5.5rem;
+  padding: 0 1.5rem;
+  line-height: 5.5rem;
+}
+#main #search-form .form-wrapper .form-submit {
+  display: inline-block;
+  overflow: hidden;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin: 0;
+  text-indent: 10rem;
+  border: 0;
+  background: #1379a7 url("../images/search-white.svg") no-repeat 50% 50%;
+  background-size: 3rem 3rem;
+}
+#main #search-form .form-wrapper .form-submit:hover {
+  background-color: #0f5f83;
+}
+#main #search-form .search-help-link {
+  display: none;
+}
+#main ol.search-results {
+  margin: 5rem 0 0 0;
+  padding: 0;
+}
+#main ol.search-results li {
+  margin: 0 0 5rem 0;
+  padding: 0;
+}
+#main ol.search-results li .search-result__title {
+  font-size: 1.4rem;
+  font-weight: normal;
+}

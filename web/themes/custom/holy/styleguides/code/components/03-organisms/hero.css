@@ -1,0 +1,7 @@
+#hero {
+  color: #fff;
+  background: #1379a7;
+}
+#hero .block > h2 {
+  display: none;
+}

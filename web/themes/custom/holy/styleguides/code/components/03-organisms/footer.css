@@ -1,0 +1,38 @@
+#footer {
+  color: #fff;
+  background: #252525;
+}
+#footer .block > h2 {
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+@media (max-width: 63.9rem) {
+  #footer {
+    padding: 4rem 0 4rem 0;
+  }
+  #footer .block {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid #353535;
+  }
+  #footer .block:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 64rem) {
+  #footer {
+    padding: 8rem 0 4rem 0;
+  }
+  #footer .region-footer {
+    display: flex;
+    gap: 4rem;
+  }
+  #footer .region-footer .block {
+    flex: 1;
+  }
+  #footer .region-footer .block > h2 {
+    text-align: left;
+  }
+}

@@ -1,0 +1,16 @@
+#hero .block-page-title-block h1 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 1.2;
+}
+@media (max-width: 63.9rem) {
+  #hero .block-page-title-block h1 {
+    padding: 3rem 0;
+  }
+}
+@media (min-width: 64rem) {
+  #hero .block-page-title-block h1 {
+    padding: 5rem 0;
+  }
+}

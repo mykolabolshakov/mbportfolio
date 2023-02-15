@@ -1,0 +1,16 @@
+.field--name-field-tags .field__items {
+  display: inline-block;
+  border: 0.1rem solid #eeeeee;
+  border-radius: 0.5rem;
+}
+.field--name-field-tags .field__items .field__item {
+  display: inline-block;
+  border-right: 0.1rem solid #eeeeee;
+}
+.field--name-field-tags .field__items .field__item:last-child {
+  border-right: 0;
+}
+.field--name-field-tags .field__items .field__item a {
+  display: inline-block;
+  padding: 1rem;
+}

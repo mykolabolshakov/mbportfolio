@@ -1,0 +1,23 @@
+#main .user-login-form {
+  padding: 3rem;
+  border: 0.1rem solid #dddddd;
+  background: #eeeeee;
+}
+#main .user-login-form label {
+  display: block;
+  margin: 0 0 0.8rem 0;
+}
+#main .user-login-form .form-text {
+  margin-bottom: 0.8rem;
+}
+#main .user-login-form .form-item {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+#main .user-login-form .form-actions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#main .user-login-form .description {
+  margin-top: -0.8rem;
+}

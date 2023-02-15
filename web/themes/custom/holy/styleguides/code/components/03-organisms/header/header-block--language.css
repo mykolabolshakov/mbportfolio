@@ -1,0 +1,49 @@
+#header .block-language h2 {
+  display: none;
+}
+#header .block-language ul.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#header .block-language ul.links li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1.5rem;
+  list-style: none;
+}
+#header .block-language ul.links li.is-active {
+  display: none;
+}
+#header .block-language ul.links li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (max-width: 63.9rem) {
+  #header .block-language {
+    margin: 0;
+    padding: 0 0 2rem 2rem;
+  }
+  #header .block-language ul.links li {
+    padding: 0 1.5rem 0 0;
+  }
+}
+@media (min-width: 64rem) {
+  #header .block-language {
+    height: 11rem;
+    margin: 0;
+  }
+  #header .block-language li {
+    display: block;
+    float: left;
+    height: 11rem;
+    margin: 0;
+    padding: 0 2.5rem 0 2.5rem;
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #353535;
+    font-weight: 800;
+    line-height: 11rem;
+  }
+}

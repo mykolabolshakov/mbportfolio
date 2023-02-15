@@ -1,0 +1,6 @@
+.block {
+  margin: 0;
+}
+.block > h2 {
+  padding: 0;
+}

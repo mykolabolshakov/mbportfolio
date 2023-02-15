@@ -1,0 +1,11 @@
+#copyright {
+  padding: 2.5rem 0 5rem 0;
+  color: #aaaaaa;
+  background: #252525;
+}
+#copyright .block {
+  text-align: center;
+}
+#copyright .block > h2 {
+  display: none;
+}

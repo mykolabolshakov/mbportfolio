@@ -1,0 +1,41 @@
+/* background */
+.bg-white {
+  background: #fff;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-primary {
+  background: #1379a7;
+}
+
+.bg-primary-light {
+  background: #4c9abc;
+}
+
+.bg-primary-dark {
+  background: #0f5f83;
+}
+
+/* text */
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-primary {
+  color: #1379a7;
+}
+
+.text-primary-light {
+  color: #4c9abc;
+}
+
+.text-primary-dark {
+  color: #0f5f83;
+}

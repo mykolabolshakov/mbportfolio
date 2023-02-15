@@ -1,0 +1,29 @@
+type: theme
+base theme: starterkit_theme
+name: 'MB Portfolio Custom theme'
+core_version_requirement: ^9.3 || ^10
+description: 'Custom theme'
+
+regions:
+  navbar: 'Navbar'
+  header: 'Header'
+  menu: 'Menu'
+  hero: 'Hero'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  tabs: 'Tabs'
+  content: 'Content'
+  sidebar_first: 'Primary sidebar'
+  sidebar_second: 'Secondary sidebar'
+  footer: 'Footer'
+  copyright: 'Copyright'
+
+libraries:
+  - holy/global-styling
+
+ckeditor_stylesheets:
+  - css/ckeditor.
+
+ckeditor5-stylesheets:
+  - css/ckeditor.css

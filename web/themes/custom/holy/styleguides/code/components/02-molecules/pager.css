@@ -1,0 +1,79 @@
+.pager {
+  margin: 0 0 1.6rem 0;
+  text-align: center;
+}
+.pager .pager__items {
+  display: inline-block;
+  clear: none;
+  margin: 0;
+  padding: 0;
+  border: 0.1rem solid #eeeeee;
+  border-radius: 0.5rem;
+  font-size: 0;
+}
+.pager .pager__items .pager__item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border-right: 0.1rem solid #eeeeee;
+  font-size: 1.6rem;
+}
+.pager .pager__items .pager__item a {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+.pager .pager__items .pager__item:last-child {
+  border-right: 0;
+}
+.pager .pager__items .pager__item.is-active {
+  font-weight: bold;
+}
+.pager .pager__items .pager__item.is-active a {
+  background: #eeeeee;
+}
+@media (max-width: 63.9rem) {
+  .pager .pager__item--first span {
+    display: none;
+  }
+  .pager .pager__item--previous span {
+    display: none;
+  }
+  .pager .pager__item--next span {
+    display: none;
+  }
+  .pager .pager__item--last span {
+    display: none;
+  }
+  .pager .pager__item--first a:after {
+    content: "<<";
+  }
+  .pager .pager__item--previous a:after {
+    content: "<";
+  }
+  .pager .pager__item--next a:after {
+    content: ">";
+  }
+  .pager .pager__item--last a:after {
+    content: ">>";
+  }
+}
+@media (max-width: 47.9rem) {
+  .pager .pager__item {
+    display: none;
+  }
+  .pager .pager__item.is-active {
+    display: inline-block;
+  }
+  .pager .pager__item--first {
+    display: inline-block;
+  }
+  .pager .pager__item--previous {
+    display: inline-block;
+  }
+  .pager .pager__item--next {
+    display: inline-block;
+  }
+  .pager .pager__item--last {
+    display: inline-block;
+  }
+}

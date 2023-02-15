@@ -1,0 +1,25 @@
+@media (max-width: 63.9rem) {
+  #navbar-collapse {
+    display: none;
+  }
+  body.menu-open #navbar-collapse {
+    position: fixed;
+    z-index: 1000;
+    top: 11rem;
+    left: 0;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 11rem);
+    padding-top: 3.5rem;
+    color: #fff;
+    background: #1379a7;
+  }
+  body.menu-open #navbar-collapse #header {
+    order: 2;
+  }
+  body.menu-open #navbar-collapse #menu {
+    order: 1;
+  }
+}

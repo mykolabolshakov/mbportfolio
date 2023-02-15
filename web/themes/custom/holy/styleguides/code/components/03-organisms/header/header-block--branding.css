@@ -1,0 +1,39 @@
+@media (max-width: 63.9rem) {
+  #header .block-system-branding-block {
+    display: none;
+  }
+}
+@media (min-width: 64rem) {
+  #header .block-system-branding-block {
+    height: 11rem;
+    margin: 0 auto 0 0;
+  }
+  #header .block-system-branding-block a.logo {
+    display: inline-block;
+    padding: 2.5rem 0 2.5rem 0;
+    text-decoration: none;
+  }
+  #header .block-system-branding-block a.logo .image {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: top;
+  }
+  #header .block-system-branding-block a.logo .image img {
+    width: 5rem;
+    height: auto;
+  }
+  #header .block-system-branding-block a.logo .title {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #header .block-system-branding-block a.logo .title .site-name {
+    display: block;
+    color: #000;
+    font-size: 3.2rem;
+  }
+  #header .block-system-branding-block a.logo .title .site-slogan {
+    display: block;
+    color: #000;
+    font-size: 1.5rem;
+  }
+}

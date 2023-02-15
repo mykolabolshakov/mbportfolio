@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * @file
+ * Style Guides - Audio.
+ */
+?>
+<!-----------------------  audio ----------------------->
+
+<div id="sg-audio" class="styleguide">
+
+<h2 class="styleguide-title">audio</h2>
+
+<div class="sg-content">
+
+<div class="styleguide-item-preview">
+<audio controls>
+    <source src="test.ogg" type="audio/ogg">
+    <source src="test.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio> 
+</div>
+
+<div class="styleguide-item-text uitabs">
+<ul>
+    <li><a href="#tabs-audio-1">CSS</a></li>
+    <li><a href="#tabs-audio-2">SCSS</a></li>
+    <li><a href="#tabs-audio-3">HTML</a></li>
+</ul>
+
+<pre id="tabs-audio-1">
+<code class="language-css">
+<?php include 'audio.css'; ?>
+</code>
+</pre>
+
+<pre id="tabs-audio-2">
+<code class="language-scss">
+<?php include '../sass/components/01-atoms/_audio.scss'; ?>
+</code>
+</pre>
+
+<pre id="tabs-audio-3">
+<code class="language-markup">
+&lt;audio controls>
+    &lt;source src="test.ogg" type="audio/ogg">
+    &lt;source src="test.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+&lt;/audio> 
+</code>
+</pre>
+
+</div>
+</div>
+</div>
