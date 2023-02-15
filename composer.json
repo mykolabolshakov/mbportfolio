@@ -26,8 +26,11 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/holy": "^2.0",
+        "drupal/slick": "^2.7",
         "drupal/social_media_links": "^2.9",
-        "drush/drush": "^11.4"
+        "drupal/views_slideshow": "^5.0",
+        "drush/drush": "^11.4",
+        "wikimedia/composer-merge-plugin": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -40,7 +43,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
     },
@@ -55,7 +59,9 @@
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
@@ -77,6 +83,12 @@
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
+            ]
+        },
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/views_slideshow/composer.libraries.json",
+                "web/modules/contrib/views_slideshow/modules/views_slideshow_cycle/composer.libraries.json"
             ]
         },
         "drupal-core-project-message": {
